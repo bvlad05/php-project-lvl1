@@ -1,7 +1,8 @@
 {
     "name": "hexlet/code",
     "bin": [
-        "bin/brain-games"
+        "bin/brain-games",
+        "bin/brain-even"
     ],
     "scripts": {
         "phpcs": "phpcs ./src"
@@ -18,7 +19,10 @@
         "psr-4": {
             "Brain\\Games\\": "src"
         },
-        "files": ["src/Cli.php"]
+        "files": [
+            "src/Cli.php",
+            "src/Games/brainEven.php"
+        ]
     },
     "license": "MIT",
     "require": {
