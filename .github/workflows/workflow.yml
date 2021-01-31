@@ -1,14 +1,9 @@
-# Name of workflow
 name: PHP CI
-
-# Trigger the workflow on push or pull request
 on:
     - push
-
 jobs:
     build:
         runs-on: ubuntu-latest
-
         steps:
             - uses: actions/checkout@v2
             - name: Setup PHP
