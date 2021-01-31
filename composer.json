@@ -11,6 +11,14 @@
             "email": "vladbndko@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Brain\\Games\\": "src"
+        },
+        "files": ["src/Cli.php"]
+    },
     "license": "MIT",
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11"
+    }
 }
