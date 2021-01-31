@@ -1,5 +1,8 @@
 {
     "name": "hexlet/code",
+    "bin": [
+        "bin/brain-games"
+    ],
     "description": "PHP Project Level 1",
     "type": "project",
     "authors": [
@@ -8,5 +11,6 @@
             "email": "vladbndko@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {}
 }
